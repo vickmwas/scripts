@@ -1,8 +1,7 @@
 # scripts
 
 ## 1. launch_emulator.sh
-I got tired of having to go through a couple of steps to launch an Android Emulator whenever I need it.
-So I wrote this script to launch any emulator I want, straight from the command line.
+I use this script to launch any emulator I want, straight from the command line.
 
 Here is how it works:
 
