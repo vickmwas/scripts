@@ -1,14 +1,17 @@
 #!/bin/bash
+ANDROID_SDK_PATH=~/Android/SDK
+
 echo ""
 echo "Here's a list of your AVDs."
 
-cd /home/victor/Android/SDK/tools
+# cd ${ANDROID_SDK_PATH}/tools/
+cd ${ANDROID_SDK_PATH}/tools/
 
-touch list.txt
+touch .list
 
-./emulator -list-avds > list.txt
+./emulator -list-avds > .list
 
-cat -n list.txt
+cat -n .list
 
 echo ""
 
